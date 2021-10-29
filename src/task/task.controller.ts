@@ -30,7 +30,7 @@ export class TaskController {
     return new Promise((resolve, reject) =>
       setTimeout(() => {
         reject('Error en la promesa');
-      }, 2000),
+      }, 5000),
     );
   }
 
